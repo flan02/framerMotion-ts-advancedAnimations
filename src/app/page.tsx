@@ -10,6 +10,9 @@ import UseAnimation from "@/components/UseAnimation";
 import DragGestures from "@/components/DragGestures";
 import WhileTapHover from "@/components/WhileTapHover";
 import PanGestures from "@/components/PanGestures";
+import AccesibleAnimations from "@/components/AccesibleAnimations";
+import AnimatingSVG from "@/components/AnimatingSVG";
+import { AnimateCustomComponents } from "@/components/AnimateCustomComponents";
 
 
 export default function Home() {
@@ -30,8 +33,10 @@ export default function Home() {
       {/*<UseAnimation />*/}
       {/*<DragGestures />*/}
       {/*<WhileTapHover />*/}
-      <PanGestures />
-
+      {/*<PanGestures />*/}
+      {/*<AccesibleAnimations />*/}
+      {/*<AnimatingSVG />*/}
+      <AnimateCustomComponents name="Dan" id="33787475" />
     </div>
   )
 }
