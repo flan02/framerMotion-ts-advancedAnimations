@@ -6,6 +6,10 @@ import TransitionsRepeat from "@/components/TransitionsRepeat";
 import TransitionsPosition from "@/components/TransitionsPosition";
 import VariantsNestedAnimations from "@/components/VariantsNestedAnimations";
 import PresenceAnimate from "@/components/PresenceAnimate";
+import UseAnimation from "@/components/UseAnimation";
+import DragGestures from "@/components/DragGestures";
+import WhileTapHover from "@/components/WhileTapHover";
+import PanGestures from "@/components/PanGestures";
 
 
 export default function Home() {
@@ -22,7 +26,11 @@ export default function Home() {
       }} />
       */}
       {/*<VariantsNestedAnimations />*/}
-      <PresenceAnimate />
+      {/*<PresenceAnimate />*/}
+      {/*<UseAnimation />*/}
+      {/*<DragGestures />*/}
+      {/*<WhileTapHover />*/}
+      <PanGestures />
 
     </div>
   )
