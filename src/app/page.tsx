@@ -13,11 +13,12 @@ import PanGestures from "@/components/PanGestures";
 import AccesibleAnimations from "@/components/AccesibleAnimations";
 import AnimatingSVG from "@/components/AnimatingSVG";
 import { AnimateCustomComponents } from "@/components/AnimateCustomComponents";
+import ScrollAnimations from "@/components/ScrollAnimations";
 
 
 export default function Home() {
   return (
-    <div className="h-screen bg-gradient-to-tr from-cyan-400 via-violet-600 to-purple-700 px-8">
+    <div className="h-[100vh] bg-gradient-to-tr from-cyan-400 via-violet-600 to-purple-700 px-8">
       <h1 className="text-center text-6xl text-white py-8">Framer motion advanced course</h1>
       {/* <SquareBasics /> */}
       {/*<TransitionsCustom />*/}
@@ -36,7 +37,8 @@ export default function Home() {
       {/*<PanGestures />*/}
       {/*<AccesibleAnimations />*/}
       {/*<AnimatingSVG />*/}
-      <AnimateCustomComponents name="Dan" id="33787475" />
+      {/*<AnimateCustomComponents name="Dan" id="33787475" />*/}
+      <ScrollAnimations />
     </div>
   )
 }

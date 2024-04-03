@@ -1,6 +1,6 @@
 /* eslint-disable react/display-name */
 'use client'
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion' // * it is not necessary to import motion because we send the props to the custom component using "forwardRef" / "ref"
 import React, { forwardRef, Ref } from 'react'
 
 type Props = {
